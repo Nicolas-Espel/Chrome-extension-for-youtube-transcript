@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 275px;
+    overflow: hidden;
+    background-image: url(/Images/backgroundImage.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+button {
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    color: black;
+    background-image: none;
+}
+
+button:hover {
+    opacity: 65%;
+}
+
+#result {
+    font-size: larger;
+    text-align: left;
+    color: black;
+}
